@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".AddCarActivity">
+
+
+    <TextView
+        android:id="@+id/addcar_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#6AE6E5E5"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="ADD CAR"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        android:typeface="serif" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Addcar_TextLayout1"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:hint="Registration Number">
+
+        <EditText
+            android:id="@+id/RegistrationNumber"
+            android:layout_width="wrap_content"
+            android:textSize="20dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Addcar_TextLayout2"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Brand">
+
+        <EditText
+            android:id="@+id/CarBrand"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/Addcar_TextLayout3"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:hint="Model">
+
+        <EditText
+            android:id="@+id/CarModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="20dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RadioGroup
+        android:layout_width="236dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/Petrol"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Petrol"
+            android:onClick="SetFuelType"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/Diesel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diesel"
+            android:onClick="SetFuelType"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/CNG_LPG"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CNG_LPG"
+            android:onClick="SetFuelType"
+            android:textSize="20dp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Add_car_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom"
+        android:text="Add car" />
+</LinearLayout>

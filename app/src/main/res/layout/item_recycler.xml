@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="94dp"
+        android:layout_height="66dp"
+        app:srcCompat="@drawable/car_logo"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/text_big"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:paddingLeft="10dp"
+            android:text="Text BIG"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_small"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/montserrat"
+            android:paddingLeft="10dp"
+            android:text="Details todo here - lorel ipsum "
+            android:textSize="15sp"
+            android:textStyle="italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="end"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/cust_car_delete"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/delete_icon" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Customer_HomeFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="20dp"
+            android:text="WELCOME"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="60dp"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/cust_home_account_btn"
+                android:layout_width="150dp"
+                android:background="@drawable/yellow_gradient"
+                android:layout_marginRight="30dp"
+                android:layout_height="150dp"
+                android:src="@drawable/admin_icon" />
+
+            <ImageButton
+                android:id="@+id/cust_home_cars_btn"
+                android:layout_width="150dp"
+                android:background="@drawable/green_gradient"
+                android:layout_height="150dp"
+                android:src="@drawable/cars_icon" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/cust_home_services_btn"
+                android:layout_width="150dp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/blue_gradient"
+                android:layout_height="150dp"
+                android:src="@drawable/services_icon" />
+
+            <ImageButton
+                android:id="@+id/cust_home_logout"
+                android:layout_width="150dp"
+                android:background="@drawable/red_gradient"
+                android:layout_height="150dp"
+                android:src="@drawable/logout_icon" />
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

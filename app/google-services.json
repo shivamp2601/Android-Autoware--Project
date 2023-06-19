@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "49816646709",
+    "firebase_url": "https://autoware-f55cf.firebaseio.com",
+    "project_id": "autoware-f55cf",
+    "storage_bucket": "autoware-f55cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49816646709:android:cdd04b39abb9733a6fed7c",
+        "android_client_info": {
+          "package_name": "com.example.autoware"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49816646709-t9k0fa87lqeds12krd7o0rkkjkoo05ke.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpWifMKxTuV5b9ljIR5lT2MN1g4LPsojs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49816646709-t9k0fa87lqeds12krd7o0rkkjkoo05ke.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

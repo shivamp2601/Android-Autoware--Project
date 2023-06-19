@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/dr_cust_home" android:title="Home" android:icon="@drawable/dashboard_icon" />
+    <item android:id="@+id/dr_cust_cars" android:title="Cars" android:icon="@drawable/car_logo"/>
+    <item android:id="@+id/dr_cust_services" android:title="Services" android:icon="@drawable/services_icon"/>
+    <item android:id="@+id/dr_cust_account" android:title="Account" android:icon="@drawable/user_icon_round"/>
+    <item android:id="@+id/dr_cust_logout" android:title="Logout" android:icon="@drawable/logout_icon"/>
+</menu>
